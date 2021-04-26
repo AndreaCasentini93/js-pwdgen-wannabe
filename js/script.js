@@ -10,8 +10,13 @@ console.log(favoriteColor);
 console.log(number);
 */
 
-var userPassword = name + surname + favoriteColor + number;
+var password = name + surname + favoriteColor + number;
+var identity = name + " " + surname;
 
-// console.log(userPassword);
+/*
+console.log(password);
+console.log(identity);
+*/
 
-document.getElementById("user_password").innerHTML = userPassword;
+document.getElementById("user_identity").innerHTML = identity;
+document.getElementById("user_password").innerHTML = password;
