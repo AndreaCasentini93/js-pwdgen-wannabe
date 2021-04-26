@@ -14,8 +14,8 @@ var password = name + surname + favoriteColor + number;
 var identity = name + " " + surname;
 
 /*
-console.log(password);
 console.log(identity);
+console.log(password);
 */
 
 document.getElementById("user_identity").innerHTML = identity;
