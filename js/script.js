@@ -6,6 +6,7 @@ var number = "21"
 console.log(name);
 console.log(surname);
 console.log(favoriteColor);
+console.log(number);
 
 var userPassword = name + surname + favoriteColor + number;
 
